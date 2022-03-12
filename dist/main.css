@@ -1,0 +1,299 @@
+a {
+  text-decoration: none;
+  color: black; }
+
+ul {
+  list-style: none; }
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  opacity: 0.6;
+  z-index: -1; }
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none; }
+  .btn:hover {
+    background-color: #fff;
+    color: #ff76e1; }
+  .btn-light {
+    background: #fff;
+    color: #ff76e1; }
+  .btn-main {
+    background: #ff76e1;
+    color: #333; }
+  .btn-dark {
+    background: #333;
+    color: #fff; }
+
+.py-1 {
+  padding: 1rem 0; }
+.py-2 {
+  padding: 2rem 0; }
+.py-3 {
+  padding: 3rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+.my-2 {
+  margin: 2rem 0; }
+.my-3 {
+  margin: 3rem 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background: white; }
+
+#header-home .container {
+  margin: auto;
+  position: relative;
+  background: url(../img/home_background.jpg) no-repeat center center/cover;
+  height: 100vh;
+  z-index: 1; }
+#header-home .container-contatti {
+  margin: auto;
+  background: url(../img/Dark-background.jpg) no-repeat center center/cover;
+  height: 91.1vh; }
+
+/* Navbar */
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 3rem;
+  height: 70px;
+  position: relative;
+  z-index: 1; }
+  #main-nav ul {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold; }
+    #main-nav ul a {
+      color: #fff; }
+      #main-nav ul a:hover {
+        color: #ff76e1; }
+    #main-nav ul li {
+      padding: 0 10px; }
+
+#logo {
+  height: 100%;
+  padding-top: 10px; }
+
+/* Showcase */
+.header-content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  font-family: "Ubuntu", sans-serif; }
+  .header-content h1 {
+    font-size: 8rem;
+    color: #ff76e1;
+    margin: 180px 60px 0 60px;
+    font-family: "Great Vibes", cursive;
+    font-weight: lighter;
+    line-height: 1;
+    text-shadow: 2px 2px pink; }
+  .header-content p {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 100px; }
+
+/* Section-a */
+#section-a {
+  z-index: 1;
+  background: #f4f4f4; }
+  #section-a .container {
+    position: relative;
+    z-index: 1; }
+  #section-a h1 {
+    padding: 10px 0;
+    font-size: 5rem;
+    text-align: center;
+    color: #ff76e1;
+    font-family: "Great Vibes", coursive; }
+
+#cards {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  color: white; }
+  #cards .card {
+    font-family: "Ubuntu", sans-serif;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    width: 60%;
+    border-bottom: 2px solid #ff76e1; }
+    #cards .card h3 {
+      font-size: 2rem;
+      color: #ff76e1;
+      text-transform: uppercase; }
+    #cards .card p {
+      font-weight: bold; }
+    #cards .card .card-body {
+      padding: 0 60px;
+      margin: 0 auto;
+      color: black; }
+    #cards .card-7 {
+      border-bottom: none; }
+  #cards .card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 0;
+    border: 1px solid #ff76e1; }
+
+/* Footer */
+#main-footer {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #ff76e1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  #main-footer .social i {
+    padding: 0 8px; }
+    #main-footer .social i:hover {
+      transition: all 0.5s;
+      transform: scale(1.5); }
+  #main-footer a:hover {
+    color: #fff; }
+  #main-footer .developer {
+    display: flex;
+    padding: 0 20px;
+    justify-content: right;
+    align-items: center; }
+    #main-footer .developer p {
+      padding: 0 10px;
+      font-size: 1.1rem; }
+
+/* Contact Form */
+.form {
+  font-family: "Ubuntu", sans-serif;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+  .form .text-fields {
+    padding: 20px;
+    align-items: center;
+    display: grid;
+    grid-template-areas: "name" "email" "subject" "phone" "message"; }
+    .form .text-fields .text-input {
+      border-radius: 10px;
+      border: none;
+      margin: 10px auto;
+      width: 500px;
+      height: 40px; }
+  .form h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 4rem;
+    color: #ff76e1; }
+  .form p {
+    text-transform: uppercase;
+    color: #fff; }
+
+#contact .text-fields .name-input {
+  grid-area: name; }
+
+#contacttext-fields .subject-input {
+  gridrea: subject; }
+
+#contacttext-fields .email-input {
+  grida: email; }
+
+#contacttext-fields .phone-input {
+  grida: phone; }
+
+#contact .text-fields .message-input {
+  gridrea: message;
+  height: 100px; }
+
+@media (max-width: 600px) {
+  #main-nav {
+    flex-direction: column; }
+
+  .header-content h1 {
+    font-size: 5rem;
+    color: #ff76e1;
+    margin: 120px 20px 0 20px;
+    line-height: 1; }
+  .header-content p {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 100px; }
+
+  #section-a h1 {
+    font-size: 3rem;
+    padding: 10px; }
+
+  #cards .card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    #cards .card h3 {
+      margin-top: 30px; }
+    #cards .card .card-text {
+      display: none; }
+    #cards .card .card-body {
+      padding: 0; }
+
+  #main-footer p {
+    font-size: 0.7rem; }
+  #main-footer .developer {
+    padding: 0;
+    justify-content: right; }
+    #main-footer .developer p {
+      width: 30px;
+      margin-right: 30px; }
+
+  .form h2 {
+    margin-top: 10px; }
+  .form .text-fields .text-input {
+    width: 300px;
+    height: 30px; } }
+@media (max-width: 1200px) {
+  #cards .card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    #cards .card h3 {
+      padding: 20px 0; }
+
+  .social {
+    display: none; } }
+@media (max-height: 400px) {
+  .header-content h1 {
+    font-size: 5rem;
+    margin-top: 60px; }
+  .header-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=main.css.map */

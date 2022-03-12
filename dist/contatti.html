@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f2426038f9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ubuntu&display=swap');
+      </style>
+    <link rel="stylesheet" href="../dist/main.css">
+    <title>Kry | Contatti</title>
+</head>
+<body id="body-contatti">
+  <!-- Header -->
+<header id="header-home">
+    <div class="container-contatti">
+        <nav id="main-nav">
+          <img src="../img/logo/kry_logo_light.png" alt="Kry" id="logo">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#le_mie_torte">Le mie torte</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </nav>
+        <!-- Contact Form -->
+        <section id="contact" class="py-1">
+            <div class="form">
+                <h2 class="section-title">Contattami</h2>
+                <p>Compila il form</p>
+                <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                    <div class="text-fields">
+                        <input type="text" class="text-input name-input" placeholder="Nome" name="name">
+                        <input type="email" class="text-input email-input" placeholder="Indirizzo Email" name="email">
+                        <input type="text" class="text-input phone-input" placeholder="Telefono" name="phone">
+                        <textarea class="text-input message-input" placeholder="Messaggio" name="message"></textarea>
+                        <div class="my-1">
+                            <div data-netlify-recaptcha="true"></div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-main">Invia</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</header>  
+
+
+<!-- Footer -->
+
+<footer id="main-footer" class="py-1">
+  <p>Copyright &copy; 2022, All Rights Reserved</p>
+  <div class="social">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-brand fa-facebook fa-2x"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-brand fa-twitter fa-2x"></i></a>
+    <a href="https://youtube.com" target="_blank"><i class="fab fa-brand fa-youtube fa-2x"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-brand fa-instagram fa-2x"></i></a>
+  </div>
+  <div class="developer">
+    <i class="fas fa-solid fa-desktop fa-2x"></i>
+    <p><a href="mailto:davide.mulato@gmail.com">Davide Mulato</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
